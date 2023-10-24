@@ -12,7 +12,7 @@ body {
     padding: 45px 25px;
     width: calc(100% - 40px);
     max-width: 530px;
-    box-shadow: 0px 0px 104px -40px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 104px -40px rgba(0, 0, 0, 0.25);
 }
 
 .container.login h1 {
@@ -23,12 +23,12 @@ body {
 input {
     min-height: 55px;
     border: 1px solid #DDDFE1;
-    padding: 0px 10px;
+    padding: 0 10px;
     font-family: inherit;
     font-size: 15px;
 }
 
-input:placeholder {
+input::placeholder {
     color: #ABAFB3;
 }
 
@@ -88,12 +88,12 @@ button.btn.btn-login {
 
 #footer-wave-bottom {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
 }
 
 #footer-wave-top {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
 }
 
 #wavy-lines-1 {
